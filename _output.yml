@@ -3,6 +3,6 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Kiss Your Skin Well</a></li>
+        <li><a href="./">Cosmetics Project: Kiss Your Skin Well</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
