@@ -1,53 +1,22 @@
-This is a template for the EDAV final project. It is based on the template created with *File, New Project..., New Directory, Book Project using bookdown* in RStudio. 
+# Cosmetics Project: Kiss Your Skin Well
 
+**Updated**: 2019-12-12
 
-## ABSOLUTE ESSENTIALS
+**Authors**: Lingrui Luo, Zijing Wang, Di Ye, Qiaoge Zhu
 
-*Follow these instructions and you will have a published bookdown book in less than five minutes. If you have any difficulties or have feedback of any kind, please file an issue.*
+It is always hard to choose what exact cosmetic product do you want and is suitable for you, so we are here to help! Based on your preference and your skin type, we help to select the best suitable product for you, no matter what product you want, cleanser or moisturizer, and what brand you prefer, La Mer or Murad. This book analyzes 1472 products of 6 types and 116 brands, from which you can easily get the information you want on the products you are interested in and compare them to other products. 
 
-### Copy this template
+We provide analysis about features of products of different attributes such as different prices, ranks and so on. We are dedicated to answer the following questions:
 
-- [ ] 1. Click the green "Use this template" button above.  DO NOT FORK THE REPO.
+* Are there any differences in number and price of each product for different skin types? If so, what caused these differences? 
+* Are there any differences in ingredients for products of different price levels and skin types?
+* Is there any relationship between rank and price among brands? If not, what reasons do you think lead to the results?
 
-- [ ] 2. Choose a descriptive name for your repo, such as "federalbudget" or "AIDSdeaths".  (If you change your mind before you do any work, delete your new repo and start over.)
+We make recommendations on:
+* Given skin type and product type, recommend the top one product to customers. 
+* Based on your skin type, we help to list all the suitable products for your preferences of products’ features.
 
-- [ ] 3. In the Description field, write: "Bookdown source files for EDAV final project".
+## Data
+The Cosmetics data was collected in November 2018, the author of the dataset used web scraping techniques with Python Selenium to extract product information from the well-known online shopping website Sephora. The details of how the data was processed can be viewed [here](https://github.com/jjone36/Cosmetic/tree/master/data).
 
-### Clone the repo
-
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio.
-
-### Edit some key files
-
-- [ ] 1. In `index.Rmd`, change YOUR TITLE HERE to your title.
-
-- [ ] 2. In `index.Rmd`, change YOUR NAMES HERE to your names.
-
-- [ ] 3. In `_bookdown.yml`, change YOUR GITHUB USERNAME to your GitHub username in the two places it appears.
-
-- [ ] 4. In `_bookdown.yml`, change YOUR GITHUB REPO to your GitHub repo name in the two places it appears.
-
-- [ ] 5. In `_output.yml`, change YOUR SHORT TITLE to a shortened version of your title. (Leave the "after:" line indicating that the book was published with bookdown as is.)
-
-### Render the book
-
-- [ ] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to version 0.16 (2019-11-22).
-
-- [ ] 2. Render locally with `bookdown::render_book("index.Rmd")`.
-
-- [ ] 3. Use `browseURL("docs/index.html")` to view your book locally (or just open `index.html` in a browser).
-
-- [ ] 4. If it looks good, commit and push all changed files to GitHub. 
-
-(You will need to repeat steps 2 and 4 every time you wish to update the book online.)
-
-### Set up GitHub Pages
-
-- [ ] 1. On the home page of your repo, click Settings. Scroll down to the GitHub pages section and change **Source** to **master branch /docs folder**.  Above the **Source** line, a bar will appear with your book's URL. The bar will initially be blue and indicate that your book is *ready* to be published and will change to green once it is published. Copy the URL. (Note that sometimes there is a delay until your book actually appears at that URL. If it doesn't appear after a few minutes, try making a small change locally, rendering the book, and pushing the changes to trigger a deploy.)
-
-- [ ] 2. Click the edit button on the top of the home page of the repo and paste your book URL into the **Website** field that appears on the right.
-
-At some point before you turn in your project, delete the content of this **README** and add a short description of your project with a link to the book URL.
-
-For additional features, consult the official guide to **bookdown**: https://bookdown.org/yihui/bookdown
 
