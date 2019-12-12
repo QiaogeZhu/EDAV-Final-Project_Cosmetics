@@ -1,0 +1,151 @@
+<!-- reference: W3SCHOOLS -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  position: ;
+  width: 600px;
+  height: 240px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #ffb3b3;
+  color: white;
+  font-size: 20px;
+}
+
+.flip-box-back {
+  background-color: #ffe6f0;
+  color: white;
+  transform: rotateY(180deg);
+}
+.text-front {
+  font-family: 'Fredoka One', cursive;
+}
+.text-back-title {
+  font-family: 'Fredoka One', cursive;
+}
+.text-back-content {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #ac3939;
+  font-size: 16px;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Combination Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Combination Skin</h2>
+      <p class="text-back-content">Pores that look larger than normal</br>
+          Blackheads</br>
+          Shiny skin</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Dry Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Dry Skin</h2>
+      <p class="text-back-content">Almost invisible pores</br>
+          Dull, rough complexion</br>
+          Red patches</br>
+          Your skin is less elastic</br>
+          More visible lines</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+
+      <h1 class="text-front">Normal Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Normal Skin</h2>
+      <p class="text-back-content">Not too dry and not too oily</br>
+        No or few imperfections</br>
+        No severe sensitivity</br>
+        Barely visible pores</br>
+        A radiant complexion</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Oily Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Oily Skin</h2>
+      <p class="text-back-content">Enlarged pores</br>
+          Dull or shiny, thick complexion</br>
+          Blackheads, pimples, or other blemishes</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Sensitive Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Sensitive Skin</h2>
+      <p class="text-back-content">Redness</br>
+          Itching</br>
+          Burning</br>
+          Dryness</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

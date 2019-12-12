@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Data transformation | YOUR TITLE HERE</title>
-  <meta name="description" content="Chapter 3 Data transformation | YOUR TITLE HERE" />
+  <title>Chapter 9 Data transformation | finalproj.utf8</title>
+  <meta name="description" content=" Kiss Your Skin Well 🌸" />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Data transformation | YOUR TITLE HERE" />
+  <meta property="og:title" content="Chapter 9 Data transformation | finalproj.utf8" />
   <meta property="og:type" content="book" />
   
   
@@ -16,15 +16,14 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Data transformation | YOUR TITLE HERE" />
+  <meta name="twitter:title" content="Chapter 9 Data transformation | finalproj.utf8" />
   
   
   
 
-<meta name="author" content="YOUR NAMES HERE" />
 
 
-<meta name="date" content="2019-11-23" />
+<meta name="date" content="2019-12-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,6 +49,13 @@
 
 
 
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.46.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.46.1/plotly-latest.min.js"></script>
 
 
 
@@ -66,16 +72,40 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">SHORT TITLE HERE</a></li>
+<li><a href="./">cosmetics</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>2</b> Data sources</a></li>
-<li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data transformation</a></li>
-<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values</a></li>
-<li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results</a></li>
-<li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component</a></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a></li>
+<li class="chapter" data-level="3" data-path="section3.html"><a href="section3.html"><i class="fa fa-check"></i><b>3</b> Skin Type</a><ul>
+<li class="chapter" data-level="3.1" data-path="section3.html"><a href="section3.html#skintype"><i class="fa fa-check"></i><b>3.1</b> Know Your Skin Type</a></li>
+<li class="chapter" data-level="3.2" data-path="section3.html"><a href="section3.html#number-of-products-for-each-skin-type"><i class="fa fa-check"></i><b>3.2</b> Number of Products for Each Skin Type</a></li>
+<li class="chapter" data-level="3.3" data-path="section3.html"><a href="section3.html#section3_3"><i class="fa fa-check"></i><b>3.3</b> Price Differences for Each Skin Type</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="section4.html"><a href="section4.html"><i class="fa fa-check"></i><b>4</b> Top Ingredients</a><ul>
+<li class="chapter" data-level="4.1" data-path="section4.html"><a href="section4.html#top-10-ingredient-rank"><i class="fa fa-check"></i><b>4.1</b> Top 10 Ingredient Rank</a></li>
+<li class="chapter" data-level="4.2" data-path="section4.html"><a href="section4.html#unique-ingredients-in-products"><i class="fa fa-check"></i><b>4.2</b> Unique Ingredients in Products</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="section4.html"><a href="section4.html#unique-ingredients-based-on-prices"><i class="fa fa-check"></i><b>4.2.1</b> Unique Ingredients based on Prices</a></li>
+<li class="chapter" data-level="4.2.2" data-path="section4.html"><a href="section4.html#unique-ingredients-based-on-skin-type"><i class="fa fa-check"></i><b>4.2.2</b> Unique Ingredients based on Skin Type</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="section5.html"><a href="section5.html"><i class="fa fa-check"></i><b>5</b> Rank</a></li>
+<li class="chapter" data-level="6" data-path="product-recommendation.html"><a href="product-recommendation.html"><i class="fa fa-check"></i><b>6</b> Product Recommendation</a><ul>
+<li class="chapter" data-level="6.1" data-path="product-recommendation.html"><a href="product-recommendation.html#product-list-based-on-features"><i class="fa fa-check"></i><b>6.1</b> Product List Based on Features</a></li>
+<li class="chapter" data-level="6.2" data-path="product-recommendation.html"><a href="product-recommendation.html#top-1-product-recommendation-based-on-your-skin-type"><i class="fa fa-check"></i><b>6.2</b> Top 1 Product Recommendation Based on Your Skin Type</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a><ul>
+<li class="chapter" data-level="7.1" data-path="conclusion.html"><a href="conclusion.html#limitations"><i class="fa fa-check"></i><b>7.1</b> Limitations</a></li>
+<li class="chapter" data-level="7.2" data-path="conclusion.html"><a href="conclusion.html#future-directions"><i class="fa fa-check"></i><b>7.2</b> Future Directions</a></li>
+<li class="chapter" data-level="7.3" data-path="conclusion.html"><a href="conclusion.html#lessons-learned"><i class="fa fa-check"></i><b>7.3</b> Lessons Learned</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="8" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>8</b> Data sources</a></li>
+<li class="chapter" data-level="9" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>9</b> Data transformation</a></li>
+<li class="chapter" data-level="10" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>10</b> Missing values</a></li>
+<li class="chapter" data-level="11" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>11</b> Results</a></li>
+<li class="chapter" data-level="12" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>12</b> Interactive component</a></li>
+<li class="chapter" data-level="13" data-path="conclusion-1.html"><a href="conclusion-1.html"><i class="fa fa-check"></i><b>13</b> Conclusion</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -87,7 +117,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">YOUR TITLE HERE</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><div style='color: brown;font-family: 'Ubuntu Mono';font-size: 50px;'> Kiss Your Skin Well 🌸</div></a>
           </h1>
         </div>
 
@@ -96,7 +126,7 @@
 
             <section class="normal" id="section-">
 <div id="data-transformation" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> Data transformation</h1>
+<h1><span class="header-section-number">Chapter 9</span> Data transformation</h1>
 
 </div>
             </section>
@@ -136,7 +166,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/edit/master/03-cleaning.Rmd",
+"link": "https://github.com/lingruiluo/finalproject/edit/master/03-cleaning.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -144,7 +174,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/blob/master/03-cleaning.Rmd",
+"link": "https://github.com/lingruiluo/finalproject/blob/master/03-cleaning.Rmd",
 "text": null
 },
 "download": null,

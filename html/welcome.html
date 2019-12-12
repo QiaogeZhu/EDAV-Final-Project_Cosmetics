@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Boxplots</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <!-- logo script start-->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v5.min.js"></script> -->
+  <body>
+  	  <svg width="700" height="100" xmlns = "http://www.w3.org/2000/svg">
+        <path fill="#DB7093" stroke="#DB7093"
+          d="M 10,30
+             A 20,20 0,0,1 50,30
+             A 20,20 0,0,1 90,30
+             Q 90,60 50,90
+             Q 10,60 10,30 z" />
+        <text x="110" y="60" id="welcome"></text>
+        <text id="smile"></text>
+      </svg>
+  	  <script type="text/javascript">
+  	      var svg = d3.select("svg");
+          svg.select("text#welcome")
+            .text("Hello! Welcome to our Channel")
+            .style("fill","#d279a6")
+            .style("font-size","30px")
+            //.style("font-family","Luckiest Guy");
+            .style("font-family",'Caveat');
+          svg.select("path")
+            .transition().duration(2000)
+            .attr("fill","#ff9966").attr("stroke","#ff9966")
+            .transition().duration(2000)
+            .attr("fill","#d580ff").attr("stroke","#d580ff")
+            .transition().duration(2000)
+            .attr("fill","#99bbff").attr("stroke","#99bbff")
+            .transition().duration(2000)
+            .attr("fill","#b366ff").attr("stroke","#b366ff")
+            .transition().duration(2000)
+            .attr("fill","#ff6666").attr("stroke","#ff6666")
+            .transition().duration(2000)
+            .attr("fill","#DB7093").attr("stroke","#DB7093");
+          svg.select("text#welcome")
+            .transition().duration(2000)
+            .style("fill","#ff9966")
+            .transition().duration(2000)
+            .style("fill","#d580ff")
+            .transition().duration(2000)
+            .style("fill","#99bbff")
+            .transition().duration(2000)
+            .style("fill","#b366ff")
+            .transition().duration(2000)
+            .style("fill","#ff6666")
+            .transition().duration(2000)
+            .style("fill","#DB7093");
+          svg.select("path")
+            .on("mouseover", path_to_color)
+            .on("mouseout", path_back_color);
+          svg.select("text#welcome").on("mouseover",show_smile);
+
+          function path_to_color() {
+            d3.select(this).attr("fill","#FF0000").attr("stroke","#FF0000");
+          }
+          function path_back_color() {
+            d3.select(this)
+              .transition().duration(200)
+              .attr("fill","#FFC0CB").attr("stroke","#FFC0CB")
+              .transition().duration(200).attr("fill","#DB7093").attr("stroke","#DB7093");
+          }
+          function show_smile(){
+            svg.select("text#smile")
+              .text(":)")
+              .attr("x","450")
+              .attr("y","60")
+              .style("fill","#DB7093")
+              .style("font-size","30px")
+              .style("font-family",'Caveat');
+          }
+  		</script>
+
+  	</body>
+  <!-- logo script end -->
+
+</html>

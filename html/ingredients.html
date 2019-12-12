@@ -1,0 +1,176 @@
+<!-- reference: W3SCHOOLS -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  position: ;
+  width: 600px;
+  height: 240px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #ffb3b3;
+  color: white;
+  font-size: 20px;
+}
+
+.flip-box-back {
+  background-color: #ffe6f0;
+  color: white;
+  transform: rotateY(180deg);
+}
+.text-front {
+  font-family: 'Fredoka One', cursive;
+}
+.text-back-title {
+  font-family: 'Fredoka One', cursive;
+}
+.text-back-content {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #ac3939;
+  font-size: 16px;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Urea</h1>
+      <h1 class="text-front">Combination Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Urea</h2>
+      <p class="text-back-content"> Urea is used to prevent the change in the acid/base balance of a product when it is mixingly used with other products. It also slows the loss of moisture of a product.</br>
+      Since people with combination skins use products of different effects, Urea could prevent the ingredient of these products from being contaminated and help each product get the most out of its effects. </br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Ceteareth-20</h1>
+      <h1 class="text-front">Dry Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Ceteareth-20</h2>
+      <p class="text-back-content">Ceteareth-20 is used as a penetration enhancer in cosmetics products. It can alter the skin structure so that the moisture could go deeper into the skin.</br>
+      Obviously, since dry skins lack moisture, Ceteareth-20 efficiently add moisture to the deep of the skins.</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+
+      <h1 class="text-front">Isododecane</h1>
+      <h1 class="text-front">Oily Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Isododecane</h2>
+      <p class="text-back-content">Isododecane makes the products spread easily without leaving a thick or greasy residue and helps the customers feel "weightless"</br>
+        People with oily skins usually have greasy appearances. When they apply cosmetic products on their skins, they often feel their skins overwhelmed. Isododecane can effectively reduce people's feel of "weight" on their skins.</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Aluminum Hydroxide</h1>
+      <h1 class="text-front">Sensitive Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Aluminum Hydroxide</h2>
+      <p class="text-back-content">Aluminum Hydroxide protects skins from harmful stimuli and may provide relief to the skins.</br>
+          Sensitive skins are unstable. They are easily affected by stimuli in the environment and thus resulting in reactions such as redness. Aluminum Hydroxide serves as a protectent so that skins are not affected by damaging stimuli.</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Curcuma Longa(Turmeric) Root Extracts</h1>
+      <h1 class="text-front">Sensitive Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Curcuma Longa(Turmeric) Root Extract</h2>
+      <p class="text-back-content">It allows anti-inflammatory and anti-microbial activity, which successfully reduce acne in the skins. It might also regulate sebum production.</br>
+          People with sensitive skins may suffer from different problems. Curcuma Longa(Turmeric) Root Extract can effectively reduce some of them.</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Zinc Gluconate</h1>
+      <h1 class="text-front">Sensitive Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Zinc Gluconate</h2>
+      <p class="text-back-content">Zinc Gluconate serves as an antiviral agent for acne treatment. It could also assist the body in processing nutritions for healing to speed wound healing and prevent scarring.</br>
+          Sensitive skins are easily to be damaged. Zinc Gluconate can efficiently acclerate the healing process!</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h1 class="text-front">Rosmarinus Officinalis (Rosemary) Leaf Extract</h1>
+      <h1 class="text-front">Sensitive Skin</h1>
+    </div>
+    <div class="flip-box-back">
+      <h2 class="text-back-title">Rosmarinus Officinalis (Rosemary) Leaf Extract</h2>
+      <p class="text-back-content">It can eliminate puffiness from under the eyes. Rosemary reduces redness, swelling, acne and blemishes and thus restores skin’s natural elasticity. Antioxidants in rosemary could slow down aging.</br>
+          Rosmarinus Officinalis (Rosemary) Leaf Extract can reduce redness efficiently as well as provide nutritions.</br>
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
