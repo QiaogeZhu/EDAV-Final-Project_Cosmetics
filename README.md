@@ -19,4 +19,5 @@ We make recommendations on:
 ## Data
 The Cosmetics data was collected in November 2018, the author of the dataset used web scraping techniques with Python Selenium to extract product information from the well-known online shopping website Sephora. The details of how the data was processed can be viewed [here](https://github.com/jjone36/Cosmetic/tree/master/data).
 
-
+## Code
+All the codes are included in the **index.Rmd**.
