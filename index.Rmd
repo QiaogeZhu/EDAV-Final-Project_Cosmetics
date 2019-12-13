@@ -225,7 +225,7 @@ There aren't significant differences between the number of products for each ski
 
 - Sensitive skins are easily affected by stimuli in the environment and skin-care products. People should be very careful when developing products for sensitive skins, which could also result in more efforts.
 
-Moist- urizer and face mask are two peak demands for each skin type since they satisfy basic skin care, and most of these products targets to all skin type.  
+- Moisturizer and face mask are two peak demands for each skin type since they satisfy basic skin care, and most of these products targets to all skin type.  
 
 🌸🌸🌸Detailed analysis of different ingredients within different products will show in next section [Top Ingredients](#section4).
 
@@ -893,7 +893,7 @@ Hope these two small gadgets will help you find out the best skin care products 
 
 ## Product List Based on Features
 
-Based on your skin type, the following filters will list all the satisfied products based on your preferences.  
+Based on your preference and skin type, we filter out the essentially suitable products. No matter what products (cleanser or moisturizer) and brands (La Mer or Murad) you are willing to attempt, we provide authoritative and practical solutions.   
 
 If you do not know your skin type, please go back to the Section 3.1 [Kown Your Skin Type](#skintype), which can show you the features of each type of skin :D
 
